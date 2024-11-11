@@ -7,6 +7,13 @@ public class App {
         cuenta1.hacerRetiro(300);
         cuenta1.saldoActual();
         cuenta1.getEstado();
+        cuenta1.CambiarEstado("cerrar");
+        cuenta1.getSaldo();
+        cuenta1.CambiarEstado("cerrar");
+        cuenta1.getEstado();
+        cuenta1.hacerDeposito(1000);
+        cuenta1.saldoActual();
+
 
     }
 }

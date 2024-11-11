@@ -9,7 +9,7 @@ public class Activa implements EstadoCuenta {
 
     @Override
     public void hacerdeposito(double monto) {
-        cuenta.setSaldo(cuenta.getGetSaldo(monto)+monto);
+        cuenta.setSaldo(cuenta.getSaldo()+monto);
 
     }
     @Override
